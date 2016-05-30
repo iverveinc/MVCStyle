@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <RelativeLayout
+            android:layout_gravity="center"
+            android:id="@+id/rlSignInMai"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_marginTop="@dimen/scale_50dp"
+                android:id="@+id/rlSignInMain"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:focusable="true"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <LinearLayout
+                    android:id="@+id/llEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/scale_20dp"
+                    android:layout_marginRight="@dimen/scale_20dp"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/edtUsername"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:hint="User Name"
+                        android:inputType="text"
+                        android:padding="@dimen/scale_8dp"
+                        android:singleLine="true"
+                        android:textColor="@color/unsel_text"
+                        android:textColorHint="@color/edt_hint"
+                        android:textCursorDrawable="@drawable/edtcolor"
+                        android:textSize="@dimen/txt_12" />
+
+
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1.0dp"
+                    android:layout_below="@+id/llEmail"
+                    android:layout_marginLeft="@dimen/scale_20dp"
+                    android:layout_marginRight="@dimen/scale_20dp"
+                    android:layout_marginTop="1dp"
+                    android:background="@color/bottom_view" />
+
+                <RelativeLayout
+                    android:id="@+id/llPass"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/llEmail"
+                    android:layout_marginLeft="@dimen/scale_20dp"
+                    android:layout_marginRight="@dimen/scale_20dp"
+                    android:layout_marginTop="@dimen/scale_10dp"
+                    android:orientation="horizontal">
+
+
+                    <EditText
+                        android:id="@+id/edtPass"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="1dp"
+                        android:background="@null"
+                        android:hint="Password"
+                        android:textColor="@color/unsel_text"
+                        android:textColorHint="@color/edt_hint"
+                        android:inputType="textPassword"
+                        android:padding="@dimen/scale_8dp"
+                        android:singleLine="true"
+                        android:textCursorDrawable="@drawable/edtcolor"
+                        android:textSize="@dimen/txt_12" />
+
+                    <TextView
+                        android:id="@+id/imgShowPw"
+                        android:layout_alignParentEnd="true"
+                        android:padding="@dimen/scale_5dp"
+                        android:layout_marginRight="@dimen/scale_10dp"
+                        android:layout_width="wrap_content"
+                       android:text="Show"
+                        android:layout_height="wrap_content" />
+
+                </RelativeLayout>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1.0dp"
+                    android:id="@+id/view2"
+                    android:layout_below="@+id/llPass"
+                    android:layout_marginLeft="@dimen/scale_20dp"
+                    android:layout_marginRight="@dimen/scale_20dp"
+                    android:layout_marginTop="1dp"
+                    android:background="@color/bottom_view" />
+
+
+
+                <Button
+                    android:id="@+id/btnSignIn"
+                    android:layout_width="@dimen/scale_225dp"
+                    android:layout_height="@dimen/scale_40dp"
+                    android:layout_below="@+id/view2"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/scale_30dp"
+                    android:background="@drawable/roundedbutton"
+                    android:gravity="center"
+                    android:text="Sign In"
+                    android:textColor="@color/bottom_view"
+                    android:textSize="@dimen/txt_15" />
+
+
+
+                <Button
+                    android:id="@+id/btnSignUp"
+                    android:layout_width="@dimen/scale_225dp"
+                    android:layout_height="@dimen/scale_40dp"
+                    android:background="@drawable/roundedbutton"
+                    android:layout_below="@+id/btnSignIn"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/scale_150dp"
+                    android:gravity="center"
+                    android:text="Sign Up"
+                    android:textColor="@color/bottom_view"
+                    android:textSize="@dimen/txt_15" />
+
+            </RelativeLayout>
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

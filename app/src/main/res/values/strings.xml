@@ -1,0 +1,197 @@
+<resources>
+    <string name="app_name">MVC Style</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main2">MVC Style</string>
+
+    <string name="setting_default_distance">DistanceValue </string>
+    <!--//SignUp-->
+    <string name="edt_txt_hint_email">Email Id</string>
+    <string name="edt_txt_hint_pass">Password</string>
+    <string name="edt_txt_hint_firstname">First Name</string>
+    <string name="edt_txt_hint_lastname">Last Name</string>
+    <string name="edt_txt_hint_mobile">Mobile Number</string>
+    <string name="edt_txt_hint_username">User Name</string>
+    <string name="txt_gender">Gender</string>
+    <string name="txt_male">Male</string>
+    <string name="txt_female">Female</string>
+    <string name="edt_txt_hint_address">Address</string>
+    <string name="txt_submit">Submit</string>
+    <string name="txt_update">Update</string>
+    <string name="edtAddress">Address</string>
+    <string name="edtCurrentPassword">Current Password</string>
+    <string name="edtNewpassword">New Password</string>
+    <string name="spnSelectCategory">Select Category</string>
+    <string name="edtConfirmPassword">Confirm Password</string>
+
+    <string name="GPSAlertDialogTitle">GPS is setting</string>
+    <string name="GPSAlertDialogMessage">GPS is not enabled. Do you want to go to setting menu</string>
+
+    <string name="settings">Settings</string>
+    <string name="subscription">Subscription</string>
+    <string name="share">Share</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="latitude">Latitude : </string>
+    <string name="longitude">Longitude : </string>
+
+
+    <string name="history">History</string>
+    <string name="title_activity_user_forgot_pass">UserForgotPassActivity</string>
+    <string name="title_activity_settings_user">SettingsUserActivity</string>
+    <string name="title_activity_professional_list">ProfessionalListActivity</string>
+    <string name="title_activity_professional_profile">ProfessionalProfileActivity</string>
+    <string name="title_activity_booking">BookingActivity</string>
+    <string name="title_activity_history_user">HistoryUserActivity</string>
+    <string name="title_activity_web_view">WebViewActivity</string>
+    <string name="title_activity_user_profile">UserProfileActivity</string>
+    <string name="txtTshare">Request and Recieve Application</string>
+
+    <string name="txt_na">NA</string>
+    <string name="txt_new_request">NEW REQUEST</string>
+    <string name="txt_history">HISTORY</string>
+    <string name="tvHeader">JASICA SMITH</string>
+    <string name="tvHeaderProfPic">USER DETAILS</string>
+    <string name="tvMobile">123-456-789-00</string>
+    <string name="tvHdQouteTitle">Job Title</string>
+    <string name="tvQouteTitle">Hair Cuting</string>
+    <string name="tvHdContactAdd">Contact Address</string>
+    <string name="tvContactAdd">Ahamdabad</string>
+    <string name="tvEmail">lorem.ipsum@xyz.com</string>
+    <string name="tvGender">Female</string>
+    <string name="tvHdSpec">Specification</string>
+    <string name="tvSpec">Lorem Ipsum is simply dummy text.</string>
+    <string name="tvHdCertification">Certification</string>
+    <string name="tvCertification">Lorem Ipsum is simply dummy text.</string>
+    <string name="tvHdOffice">Office Address</string>
+    <string name="tvOffice">DieSachbearbeiter Schonhsuser Allee 167c10435 Berlin Germany</string>
+    <string name="tvHdQouteAmount">Quote Amount</string>
+    <string name="tvUserName">Jainik</string>
+    <string name="tvFirstName">Jainik k</string>
+    <string name="tvLastName">Patel</string>
+    <string name="tvHdDescription">Description</string>
+    <string name="tvDescription">This quote for send request praposal</string>
+    <string name="tvHdAppointDate">Appointment Date</string>
+    <string name="tvAppointDate">12/12/2016</string>
+    <string name="tvQouteAmount">100.00</string>
+    <string name="tvDoller">$</string>
+    <string name="tvHdQoute">Qoute</string>
+    <string name="tvQoute">$ 100.00</string>
+    <string name="tvHdCategory">Category</string>
+    <string name="tvCategory">Categoy</string>
+
+    <string name="tvHdAddress">Address</string>
+    <string name="tvAddress">DieSachbearbeiter Schonhsuser Allee 167c10435 Berlin Germany</string>
+    <string name="tvSubmit">Done</string>
+    <string name="tvHeaderEdit">EDIT PROFILE</string>
+    <string name="title_activity_activity_share">activity_share</string>
+
+
+    <string name="tvHeaderNotifi">MESSAGES</string>
+    <string name="tvHeaderShare">SHARE</string>
+    <string name="tvHeaderSubscip">Subscription</string>
+
+    <string name="title_activity_notification">NotificationActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="number">9898989898</string>
+
+    <string name="app_id">456601361191270</string>
+    <string name="title_activity_professional_edit">ProfessionalEditActivity</string>
+    <string name="title_activity_user_edit">UserEditActivity</string>
+    <string name="title_activity_change_password">ChangePasswordActivity</string>
+    <string name="title_activity_titile_job">Title Job</string>
+
+
+    <string name="tvHeaderBooking">REQUEST QUOTE</string>
+    <string name="tvHeaderChaPw">CHANGE PASSWORD</string>
+    <string name="tvHeaderHistory">HISTORY</string>
+    <string name="tvHeaderProHistory">PROFESSIONAL HISTORY</string>
+    <string name="tvHeaderProList">PROFESSIONAL LIST</string>
+    <string name="tvHeaderJobTtl">JOB LIST</string>
+    <string name="toolbar_title">SIGN UP</string>
+    <string name="toolbar_titlein">SIGN IN</string>
+    <string name="toolbar__signup_title">SIGN UP</string>
+    <string name="tvHeaderSetting">SETTINGS</string>
+    <string name="tvHeaderForPW">FORGOT PASSWORD</string>
+    <string name="tvHeaderHome">HOME</string>
+    <string name="edtJobtitle">Job Title</string>
+    <string name="btnSend">Send</string>
+    <string name="btnCancel">Cancel</string>
+
+
+    <string name="edtAddressBookinng">Contact Address</string>
+    <string name="edtQuoteBudget">Budget</string>
+    <string name="edtAppointmentDate">Appointment Date</string>
+    <string name="edtBookDate">Book Date</string>
+    <string name="txtDollar">($)</string>
+    <string name="edtQuoteTitle">Quote Title</string>
+    <string name="edtQuoteDesc">Quote Description</string>
+    <string name="btnSendQuote">Send Quote</string>
+    <string name="btnSave">Save</string>
+    <string name="txtGender">Gender</string>
+    <string name="edtSpecification">Specification</string>
+    <string name="edtCertification">Certification</string>
+    <string name="edtOfcAddress">Office Address</string>
+    <string name="btnUpdate">Update</string>
+    <string name="btnSubmitProProfile">Done</string>
+    <string name="tvNotificationCheck">Notification</string>
+    <string name="tvEditProfileSet">Edit Profile</string>
+    <string name="tvChangePsw">Change Password</string>
+    <string name="tvLogout">Logout</string>
+    <string name="btnSignIn">Sign In</string>
+    <string name="tvForgotPass">Forgot Password ?</string>
+    <string name="btnSignUp">Sign Up</string>
+    <string name="txtSelectCategory">Category</string>
+    <string name="btnSubmit">Submit</string>
+    <string name="tvRemember">Remember me</string>
+    <string name="marker_label">Ahone Dea</string>
+    <string name="another_label">Ahone Dea</string>
+    <string name="title">TITLE</string>
+    <string name="tvCategoryLocation">Category</string>
+    <string name="tvCategoryName">Category</string>
+    <string name="tvJobTitle">Job</string>
+    <string name="tvProUserName">Category</string>
+    <string name="tvLocation">Location</string>
+    <string name="tvDesc">Desc </string>
+    <string name="tvStatus">Status</string>
+    <string name="tvCharge">$500.00</string>
+    <string name="btnPost">Request and Recieve</string>
+    <!--<string name="btnSubmit">Submit</string>-->
+
+    <string name="txt_pending">PENDING</string>
+    <string name="txt_inprogress">IN PROGRESS</string>
+    <string name="txt_completed">COMPLETED</string>
+
+    <string name="btnAccept">Accept</string>
+    <string name="btnMaybelater">May be later</string>
+    <string name="btnCompleted">Completed</string>
+    <string name="btnRejected">Reject</string>
+
+    <string name="edtTotalJobs">Total Jobs</string>
+    <string name="edtUsedJobs">Used Jobs</string>
+    <string name="edtRemaining">Remaining Jobs</string>
+
+    <string name="txt10Jobs">10 Jobs/month : </string>
+    <string name="txt15Jobs">15 Jobs/month : </string>
+    <string name="txt20Jobs">20 Jobs/month : </string>
+    <string name="txt25Jobs">25 Jobs/month : </string>
+    <string name="txt30Jobs">50 Jobs/month : </string>
+
+    <string name="edt10Jobs">7.99 $</string>
+    <string name="edt15Jobs">9.99 $</string>
+    <string name="edt20Jobs">15.99 $</string>
+    <string name="edt25Jobs">15.99 $</string>
+    <string name="edt30Jobs">29.99 $</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="Dollar">$</string>
+    <!-- Twitter Configurations -->
+    <string name="twitter_callback">http://www.google.com</string>
+    <!--<string name="twitter_consumer_key">UT3Ku0gFyujhEQmL3RGm3Jj9O</string>-->
+    <!--<string name="twitter_consumer_secret">3GVeCTX6GBJd71SG2LJHUc2trdO5EiN8WX1c3h66wqtzFEYHpo</string>-->
+    <string name="twitter_consumer_key">qdPUIQgQvnP2lJCF6838PMArm</string>
+    <string name="twitter_consumer_secret">I5GmEZYJUNC1C4KKJ0ZNK5rRPggV847IFJTiGHQ45rHnHnDSRW</string>
+    <string name="twitter_oauth_verifier">oauth_verifier</string>
+    <string name="banner_ad_unit_id">ca-app-pub-9999943097029779/3686844649</string>
+
+    <!-- End Configurations -->
+</resources>
